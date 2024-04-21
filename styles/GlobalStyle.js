@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 body.dark-mode {
@@ -9,24 +9,24 @@ body.dark-mode {
 body.light-mode {
   --img: invert(0);
   --avatar-shadow: rgba(48,52,77,.1);
-} 
+}
 
 * {
   --bg-light-yellow: #F2F2EE;
   --bg-light-blue: #EDF2FF;
   --bg-light-red: #F2EEEE;
-  
+
   --light-yellow: #FFF6C5;
   --yellow: #F8C231;
-    
+
   --light-red: #FFC5EC;
   --red: #FF6969;
   --pink: #ED81FF;
   --light-pink: #FFE9FA;
-  
+
   --blue: #00A3FF;
   --light-blue: #B7F2FF;
-  
+
   --white: #FFFFFF;
   --white20: #ecedee;
   --black: #11181C;
@@ -34,7 +34,7 @@ body.light-mode {
   --gray: #687076;
   --light-black: rgba(0,0,0,.05);
   --light-white: rgba(255,255,255,.03);
-  
+
   margin: 0;
   padding: 0;
   border: 0;
@@ -43,8 +43,8 @@ body.light-mode {
   box-sizing: border-box;
   line-height: normal;
   transition: all .1s ease;
-  
-  
+
+
 }
 
 html{
@@ -65,7 +65,7 @@ a{
 
 .main{
     min-height: 100vh;
-    
+
 }
 .toast-container {
   border-radius: 12px;
@@ -77,7 +77,7 @@ a{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  
+
 }
 
 .nft-clipped{
@@ -96,7 +96,7 @@ a{
   transform: translate(-50%, -50%);
 }
 
-   
+
 `;
 
 export default GlobalStyle;
