@@ -8,15 +8,15 @@ const bioData = [
 		avatar: '/avatar.png',
 		nftAvatar: true,
 		description:
-			'Combining compassion for animals with a knack for coding, the purr-fect blend of veterinary tech and programmer expertise. From debugging code to caring for furry friends, skills know no bounds.',
+			'I blend technical expertise with an eye for detail to craft intuitive user interfaces & streamline data processes.',
 		descShow: true,
-		subdesc: 'veterinary technician | frontend developer',
+		subdesc: 'data entry clerk | frontend developer',
 		subdescShow: true,
 		newProductUrl: 'https://lindseyk.dev',
 		newProduct: true,
 		author: 'lindsey k',
 		authorURL: 'https://twitter.com/lindseykdev',
-		footerText: 'made by',
+		footerText: 'created by',
 	},
 ];
 

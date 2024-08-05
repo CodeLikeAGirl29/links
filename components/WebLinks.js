@@ -37,12 +37,8 @@ const Links = () => {
 	const avatarShape = bioData[0].nftAvatar ? `nft-clipped` : `oval-clipped`;
 
 	// Description and subdescription goes here
-	const descriptionText = descShow
-		? description
-		: `Write your own fall back text if description not in BioData.js or remove me/leave blank`;
-	const subdescText = subdescShow
-		? subdesc
-		: `Write your own if you want or just remove me/leave blank`;
+	const descriptionText = descShow ? description : ``;
+	const subdescText = subdescShow ? subdesc : ``;
 
 	const newProduct = bioData[0].newProduct; // checking for newProduct flag true false
 	const newProductUrl = bioData[0].newProductUrl; // get product url if available
@@ -233,7 +229,7 @@ const Links = () => {
 										>
 											<LinkBox>
 												<LinkTitle>
-													<img src={i.icon} alt="" /> {i.title}
+													<img src={i.icon} alt='' /> {i.title}
 												</LinkTitle>{' '}
 												<NewUp />
 											</LinkBox>
@@ -285,8 +281,8 @@ const LinkHeader = styled.div`
 `;
 
 const Avatar = styled.div`
-	height: 90px;
-	width: 90px;
+	height: 119px;
+	width: 119px;
 	position: relative;
 	margin-bottom: 12px;
 `;
